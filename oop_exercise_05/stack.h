@@ -123,6 +123,7 @@ public:
 			}
 			if (size == 1) {
 				tail = nullptr;
+				head = nullptr;
 			}
 			else {
 				std::shared_ptr<Node> tmp = tail->next;
