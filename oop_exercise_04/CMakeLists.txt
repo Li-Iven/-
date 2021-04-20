@@ -3,4 +3,4 @@ project(oop_lab4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab4 LR4.cpp figures.h functions.h)
+add_executable(lab4 main.cpp figures.h functions.h)
